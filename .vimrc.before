@@ -1,0 +1,5 @@
+call janus#disable_plugin('mustache')
+let mapleader = ","
+
+"color railscasts2
+nnoremap <C-b> :BufExplorer<CR>
