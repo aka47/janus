@@ -1,6 +1,3 @@
-[submodule "vim-matchit"]
-	path = vim-matchit
-	url = git://github.com/tsaleh/vim-matchit.git
 [submodule "file-line"]
 	path = file-line
 	url = git://github.com/bogado/file-line.git
