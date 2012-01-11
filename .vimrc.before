@@ -1,5 +1,14 @@
 call janus#disable_plugin('mustache')
+call janus#disable_plugin('vimwiki') "personal wiki
+call janus#disable_plugin('pep8')    "python stuff
+call janus#disable_plugin('hammer') "preview textile etc 
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*
+
 let mapleader = ","
 
 "color railscasts2
 nnoremap <C-b> :BufExplorer<CR>
+map <C-J>j <C-W>j<C-W>_
+map <C-j>k <C-W>k<C-W>_
+map <C-j> <C-W>j<C-W>
+map <C-k> <C-W>k<C-W>
