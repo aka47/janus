@@ -10,3 +10,6 @@
 [submodule "rails31nav.vim"]
 	path = rails31nav.vim
 	url = https://github.com/danchoi/rails31nav.vim.git
+[submodule "vim-colors-solarized"]
+	path = vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
